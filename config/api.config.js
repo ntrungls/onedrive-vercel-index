@@ -15,12 +15,12 @@ module.exports = {
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
-  redirectUri: 'http://localhost',
+  redirectUri: 'http://localhost:3000',
 
   // These are the URLs of the OneDrive API endpoints. You would not need to change anything here if you are using OneDrive International
   // or E5 Subscription OneDrive for Business. You may need to change these if you are using OneDrive 世纪互联.
   authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
-  driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
+  driveApi: 'https://graph.microsoft.com/v1.0/sites/ntrungg.sharepoint.com,222cc9ff-1fdf-4b89-b1ea-7a30f4ed777b,998fc76a-6498-4956-b7d4-797909784468/drive',
 
   // The scope we require are listed here, in most cases you would not need to change this as well.
   scope: 'user.read files.read.all offline_access',
