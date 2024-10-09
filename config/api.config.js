@@ -23,7 +23,7 @@ module.exports = {
   driveApi: 'https://graph.microsoft.com/v1.0/sites/ntrungg.sharepoint.com,222cc9ff-1fdf-4b89-b1ea-7a30f4ed777b,998fc76a-6498-4956-b7d4-797909784468/drive',
 
   // The scope we require are listed here, in most cases you would not need to change this as well.
-  scope: 'user.read files.read.all offline_access',
+  scope: 'sites.read.all sites.readwrite.all offline_access',
 
   // Cache-Control header, check Vercel documentation for more details. The default settings imply:
   // - max-age=0: no cache for your browser
