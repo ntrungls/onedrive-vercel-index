@@ -11,7 +11,7 @@ const PDFEmbedPreview: React.FC<{ file: any }> = ({ file }) => {
   const pdfPath = encodeURIComponent(
     `${getBaseUrl()}/api/raw/?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`
   )
-  const url = `https://pdfjs.pages.dev/web/viewer.html?file=${pdfPath}`
+  const url = `https://pdfjs.pages.dev/web/viewer?file=${pdfPath}`
 
   return (
     <div>
